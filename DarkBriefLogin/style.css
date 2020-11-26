@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	background: #2c3a47;
+}
+.box {
+	width: 300;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #2f3640;
+	text-align: center;
+}
+.box h1 {
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box input[type="text"],
+.box input[type="password"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #1e90ff;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: whitesmoke;
+	border-radius: 25px;
+	transition: 0.25s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+	width: 250px;
+	border-color: #2ed573;
+}
+.box input[type="submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ed573;
+	padding: 14px 10px;
+	width: 120px;
+	outline: none;
+	color: whitesmoke;
+	border-radius: 25px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover {
+	background-color: #2ed573;
+}
