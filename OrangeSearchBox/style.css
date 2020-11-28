@@ -1,0 +1,65 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #e76f51;
+}
+
+.search-box {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+	transform: translate(-50%, -50%);
+	background: #457b9d;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-box:hover > .search-text {
+    width: 240px;
+    pad: 0 6px;
+    transition: 0.5s;
+}
+.search-box:hover > .search-btn {
+    background: whitesmoke;
+    transition: 0.5s;
+}
+.search-btn {
+	color: #e76f51;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #457b9d;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.search-text {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+    padding: 0;
+	color: whitesmoke;
+	font-size: 16px
+	transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    transition: 0.5s;
+}
+/* general placeholder color define */
+::-webkit-input-placeholder {
+    color: whitesmoke;
+}
+  :-moz-placeholder {/* Firefox 18- */
+    color: whitesmoke;
+}
+::-moz-placeholder{/* Firefox 19+ */
+    color: whitesmoke;
+}
+:-ms-input-placeholder {
+    color: whitesmoke;
+}
