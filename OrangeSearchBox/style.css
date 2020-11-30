@@ -18,7 +18,7 @@ body {
 }
 .search-box:hover > .search-text {
     width: 240px;
-    pad: 0 6px;
+    padding: 0 6px;
     transition: 0.5s;
 }
 .search-box:hover > .search-btn {
